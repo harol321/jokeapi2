@@ -1,0 +1,24 @@
+.c-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.c-menu a {
+  text-decoration: none;
+  color: #333;
+  background-color: #e0e0e0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.c-menu a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
